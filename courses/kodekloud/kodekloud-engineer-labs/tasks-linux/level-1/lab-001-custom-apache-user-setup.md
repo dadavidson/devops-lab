@@ -13,8 +13,8 @@
 
 In response to heightened security concerns, the `xFusionCorp Industries` security team has opted for custom Apache users for their web applications. Each user is tailored specifically for an application, enhancing security measures. Your task is to create a custom Apache user according to the outlined specifications:
 
-a. Create a user named **mariyam** on App Server 2 in Stratos Datacenter.
-b. Set UID to 3120 and its home directory to **/var/www/mariyam.**
+a. Create a user named `ammar` on `App Server 2` in Stratos Datacenter.
+b. Assign a unique UID `1194` and its home directory to `/var/www/ammar`.
 
 ------------------------------
 
@@ -25,7 +25,7 @@ Login to the app server and switch to root. For the server credentials, check ou
 
 
 ```bash
-sshpass -p  '**********' ssh -o StrictHostKeyChecking=no steve@172.16.238.11
+sshpass -p  '**********' ssh steve@stapp02
 sudo su -
 **********  
 ```
@@ -33,16 +33,18 @@ sudo su -
 Create the user based on the requirements.
 
 ```bash
-useradd -u 3120 -d /var/www/mariyam mariyam 
+useradd ammar -u 1194 -d /var/www/ammar 
 ```
 
 Verify.
 
 ```bash
-id mariyam
-grep mariyam /etc/passwd 
+id ammar
+grep ammar /etc/passwd 
 ```
 
 ------------------------------
 
 ## Notes
+
+![](https://i.imgur.com/M8gvtOR.png)
