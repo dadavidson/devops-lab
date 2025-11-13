@@ -1,11 +1,6 @@
 
 ------------------------------
 
-Start: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2023-07-27 00:10:03  
-Finished: &nbsp;&nbsp;2023-07-27 00:17:25
-
-------------------------------
-
 - [Requirements](#requirements)
 - [Steps](#steps)
 - [Resources](#resources)
